@@ -9,7 +9,7 @@ $(function () {
     //RSS Feed
     $("#blog-feed").rss("http://thebloggess.com/feed/", {
         ssl: true,
-        limit: 4,
+        limit: 3,
         layoutTemplate: '<span id="rss-feed">{entries}</span>',
         entryTemplate: '<span><a href="{url}" target="_blank">{title}</a></span>'
     });
